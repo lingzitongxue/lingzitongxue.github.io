@@ -1,0 +1,60 @@
+body{
+	padding,margin:0;
+	background-color: #6E6E6E;
+	font-size:small;
+}
+nav{
+	background-color:#2F4F4F;
+    margin,padding:0;
+    position:relative; 
+    top:0;
+    height:60px;
+   
+}
+nav #pic{
+	position:absolute;
+	margin:20px;
+	top:0;
+	left:0;
+}
+nav ul{
+	margin: 10px;
+	
+	position:absolute;
+	top:0;right:0;
+}
+nav ul li{
+	float:left;
+	margin:10px;
+}
+nav ul li a{
+	
+    text-decoration:none;
+}
+nav ul li a:visited{
+	color:white;
+}
+aside{
+	background:white;
+	width:350px;
+	margin:20px;
+	padding:20px;
+	float:right;
+}
+aside #h2{
+	padding-left:10px;
+	border-left:3px solid #BBBBBB;
+}
+aside table{
+	margin:0 auto;
+}
+section{
+	margin:20px 430px 20px 20px;
+	
+
+}
+section article{
+	margin:20px auto;
+	padding:10px;
+	background-color:white;
+}
