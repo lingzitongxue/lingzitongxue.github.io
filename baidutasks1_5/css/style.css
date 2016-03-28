@@ -19,13 +19,14 @@ nav #pic{
 }
 nav ul{
 	margin: 10px;
-	
+	list-style-type: disc;
 	position:absolute;
 	top:0;right:0;
 }
 nav ul li{
 	float:left;
 	margin:10px;
+	
 }
 nav ul li a{
 	
@@ -51,10 +52,66 @@ aside table{
 section{
 	margin:20px 430px 20px 20px;
 	
-
 }
 section article{
 	margin:20px auto;
 	padding:10px;
 	background-color:white;
+	min-width: 128px;
 }
+ 
+ .list2{
+ 	list-style-type:none;
+ }
+ #main dd{
+ 	text-align:center;
+ 	float:left;
+ 	height:100px;
+ 	
+ 	
+ }
+ #main dd img{
+ 	width:90px;
+ 	height:70px;
+ }
+ .pic-bottom{      /*不写这个的话，下一个article里的会跑到这里面去，浮动脱离文档流*/
+	clear: both;
+}
+#tableone{
+	border:thin solid black;
+	width:100%;
+	border-collapse:collapse;/*为表格设置合并边框模型：*/
+}
+#tableone th,td{
+	border:thin solid gray;
+	padding:3px;
+}
+#tableone th{
+	background-color: #000000;
+	color: white;
+}
+.trfoot{
+	background-color: #d3d3d3;
+}
+
+#signin td{
+	border-color: transparent;/*默认值。边框颜色为透明。*/
+}
+#confirm{
+	width: 100%;
+	height: 50px;
+	background-color: #1E90FF;
+	border-radius: 15px;
+	font-size: 150%;
+	color: white;
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align:center;
+	padding:10px;
+	height: 60px;
+	
+}
+
+
